@@ -18,8 +18,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         bodyColor: "#000000",
-        textLight: "#ffffff",
-        textDark: "#efc2d9",
+        bodyColor2 : '#002244',
+        textLight: "#fffbee",
+        textDark: "#a0a0a0",
+        textDarker: "#606060",
         hoverColor: "rgba(254,223,238,0.1)", 
       },
       fontFamily: {
