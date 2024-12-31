@@ -5,12 +5,12 @@ import { FaSalesforce } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <section id='home' className='max-w-contentContainer mx-auto py-10 mdl:py-56 flex flex-col mdl-px-10 cl:px-4'>
-      <motion.h1 initial={{y:10, opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5, delay:0.4}} className='text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col'>Samiksha Rana 
+    <section id='home' className='max-w-contentContainer mx-auto flex flex-col mdl-px-10 cl:px-4 py-40'>
+      <motion.h1 initial={{y:10, opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5, delay:0.4}} className='text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col text-textLight'>Samiksha Rana 
       </motion.h1>
       <motion.h2 initial={{y:10, opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5, delay:0.5}} className='text-2xl lgl:text-4xl  text-textDark mt-2 lgl:mt-4 font-semibold'> Software Engineer
       </motion.h2>
-      <motion.h3 initial={{y:10, opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5, delay:0.6}} className='text-xl lgl:text-2xl  text-textDarker mt-2 lgl:mt-4 font-mono'>I build applications for the web
+      <motion.h3 initial={{y:10, opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5, delay:0.6}} className='text-xl lgl:text-2xl  text-textDarker mt-4 lgl:mt-14 font-mono'>I build applications for the web
       </motion.h3>
 
       <motion.div initial={{y:10, opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5, delay:0.6}}  className="flex flex-rows gap-1">
